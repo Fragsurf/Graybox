@@ -1,4 +1,4 @@
-![alt text](_branding/graybox-logo.png)
+![alt text](_branding/github-banner.png)
 
 ## What is this?
 
