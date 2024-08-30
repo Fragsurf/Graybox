@@ -1,0 +1,632 @@
+[
+  {
+    "Name": "info_dm_spawn",
+    "DisplayName": "Deathmatch - Spawn Point",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Speed",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "0",
+        "EnumValues": null
+      },
+      {
+        "Name": "Team",
+        "Type": "Byte",
+        "AssetType": null,
+        "DefaultValue": "0",
+        "EnumValues": null
+      },
+      {
+        "Name": "Direction",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(0.00, 0.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "dummy_target",
+    "DisplayName": "Deathmatch - Dummy Target",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Direction",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(0.00, 0.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "trigger_empty",
+    "DisplayName": "Trigger - Empty",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Interactable",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "func_forcefield",
+    "DisplayName": "Brush - Force Field",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "func_water",
+    "DisplayName": "Brush - Water",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "func_illusionary",
+    "DisplayName": "Brush - Illusionary",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "trigger_ladder",
+    "DisplayName": "Brush - Ladder",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Interactable",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "trigger_push",
+    "DisplayName": "Trigger - Push",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Direction",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(-90.00, 0.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "Strength",
+        "Type": "Int32",
+        "AssetType": null,
+        "DefaultValue": "600",
+        "EnumValues": null
+      },
+      {
+        "Name": "Once",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "OnJump",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IgnoreDirection",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "Interactable",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "brush_scriptable",
+    "DisplayName": "Brush - Scriptable",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Script",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Interactable",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "info_object",
+    "DisplayName": "Point - Simple",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "info_teleport_destination",
+    "DisplayName": "Point - Teleport Destination",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Direction",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(0.00, 0.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "info_player_spawn",
+    "DisplayName": "Point - Spawn Point",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Team",
+        "Type": "Byte",
+        "AssetType": null,
+        "DefaultValue": "0",
+        "EnumValues": null
+      },
+      {
+        "Name": "Direction",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(0.00, 0.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "trigger_teleport",
+    "DisplayName": "Trigger - Teleport",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Destination",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "ResetVelocity",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "UseDestinationAngles",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TransformVelocity",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "Interactable",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "Enabled",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "True",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "env_fog",
+    "DisplayName": "Environment - Fog",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Density",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "1",
+        "EnumValues": null
+      },
+      {
+        "Name": "Color",
+        "Type": "Color32",
+        "AssetType": null,
+        "DefaultValue": "RGBA(153, 153, 153, 153)",
+        "EnumValues": null
+      },
+      {
+        "Name": "StartDistance",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "0",
+        "EnumValues": null
+      },
+      {
+        "Name": "EndHeight",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "10000",
+        "EnumValues": null
+      },
+      {
+        "Name": "StartHeight",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "0",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "env_sun",
+    "DisplayName": "Light - Sun",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Angles",
+        "Type": "Vector3",
+        "AssetType": null,
+        "DefaultValue": "(45.00, -15.00, 0.00)",
+        "EnumValues": null
+      },
+      {
+        "Name": "SunColor",
+        "Type": "Color32",
+        "AssetType": null,
+        "DefaultValue": "RGBA(255, 225, 225, 255)",
+        "EnumValues": null
+      },
+      {
+        "Name": "AmbientColor",
+        "Type": "Color32",
+        "AssetType": null,
+        "DefaultValue": "RGBA(128, 128, 128, 255)",
+        "EnumValues": null
+      },
+      {
+        "Name": "Intensity",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "1",
+        "EnumValues": null
+      },
+      {
+        "Name": "Skybox",
+        "Type": "Asset",
+        "AssetType": "skybox",
+        "DefaultValue": "skybox/default",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "model_static",
+    "DisplayName": "Model - Static",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "ModelPath",
+        "Type": "Asset",
+        "AssetType": "model",
+        "DefaultValue": "",
+        "EnumValues": null
+      },
+      {
+        "Name": "IsSolid",
+        "Type": "Boolean",
+        "AssetType": null,
+        "DefaultValue": "False",
+        "EnumValues": null
+      },
+      {
+        "Name": "Scale",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "1",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      }
+    ]
+  },
+  {
+    "Name": "light_point",
+    "DisplayName": "Light - Point",
+    "Description": null,
+    "Properties": [
+      {
+        "Name": "Radius",
+        "Type": "Int32",
+        "AssetType": null,
+        "DefaultValue": "200",
+        "EnumValues": null
+      },
+      {
+        "Name": "Intensity",
+        "Type": "Single",
+        "AssetType": null,
+        "DefaultValue": "1",
+        "EnumValues": null
+      },
+      {
+        "Name": "Color",
+        "Type": "Color32",
+        "AssetType": null,
+        "DefaultValue": "RGBA(255, 215, 215, 255)",
+        "EnumValues": null
+      },
+      {
+        "Name": "TargetName",
+        "Type": "String",
+        "AssetType": null,
+        "DefaultValue": "",
+        "EnumValues": null
+      }
+    ]
+  }
+]
