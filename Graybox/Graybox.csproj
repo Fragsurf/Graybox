@@ -64,9 +64,6 @@
   <ItemGroup>
     <PackageReference Include="BepuPhysics" Version="1.5.2" />
     <PackageReference Include="ImGui.NET" Version="1.90.6.1" />
-    <PackageReference Include="Magick.NET.SystemDrawing">
-      <Version>7.2.2</Version>
-    </PackageReference>
     <PackageReference Include="OpenTK.WinForms" Version="4.0.0-pre.7" />
     <PackageReference Include="protobuf-net" Version="3.2.30" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
@@ -89,10 +86,7 @@
     <PackageReference Include="AssimpNet" Version="5.0.0-beta1" />
     <PackageReference Include="Facebook.Yoga" Version="1.5.0-pre1" />
     <PackageReference Include="HarfBuzzSharp" Version="8.3.0-preview.3.1" />
-    <PackageReference Include="HarfBuzzSharp.NativeAssets.macOS" Version="8.3.0-preview.3.1" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Win32" Version="8.3.0-preview.3.1" />
-    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.7.0" />
-    <PackageReference Include="Magick.NET.Core" Version="13.7.0" />
     <PackageReference Include="NetVips" Version="2.4.1" />
     <PackageReference Include="NetVips.Extensions" Version="2.3.0" />
     <PackageReference Include="NetVips.Native.win-x64" Version="8.15.2" />
@@ -100,7 +94,6 @@
     <PackageReference Include="OpenTK" Version="4.8.2" />
     <PackageReference Include="SkiaSharp" Version="3.0.0-preview.3.1" />
     <PackageReference Include="SkiaSharp.HarfBuzz" Version="3.0.0-preview.3.1" />
-    <PackageReference Include="SkiaSharp.NativeAssets.macOS" Version="3.0.0-preview.3.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.0.0-preview.3.1" />
     <PackageReference Include="SkiaSharp.Views.Desktop.Common" Version="3.0.0-preview.3.1" />
     <PackageReference Include="System.Buffers" Version="4.5.1" />

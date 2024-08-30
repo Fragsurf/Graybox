@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graybox.Editor", "Graybox.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graybox.Bunnyhop", "Graybox.Bunnyhop\Graybox.Bunnyhop.csproj", "{1B70ED35-171B-40FF-8107-A713A0C1259A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graybox.Format", "Graybox.Format\Graybox.Format.csproj", "{55593DCA-90FB-4DA8-8280-A401C685BBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graybox.Format", "Graybox.Format\Graybox.Format.csproj", "{55593DCA-90FB-4DA8-8280-A401C685BBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
