@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Graybox is a modern hammer-like level editor built for (https://store.steampowered.com/app/1033410/Fragsurf/)[Fragsurf] & (https://github.com/fragsurf/airaccel)[AIRACCEL].
+Graybox is a modern hammer-like level editor built for [Fragsurf](https://store.steampowered.com/app/1033410/Fragsurf/) & [AIRACCEL](https://github.com/fragsurf/airaccel).
 
 Additionally, it is a minimal game engine built mostly for testing and internal purposes.  Graybox.Bunnyhop is a game project with example usage.
 
