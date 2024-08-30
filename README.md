@@ -17,3 +17,7 @@ Roadmap will be posted later.
 ## Early Development
 
 Graybox is a fork of CBRE-EX, which is a fork of CBRE, which is a fork of Sledge.  It's been rewritten from the ground up, it's very early in development, many things will change, and many things aren't as good as they could be.
+
+## Screenshots
+
+![Graybox Screenshot](_branding/screenshot_1.png)
