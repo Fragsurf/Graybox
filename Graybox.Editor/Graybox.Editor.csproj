@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="graybox-logo-2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Graybox\Graybox.csproj" />
   </ItemGroup>
 
@@ -57,6 +61,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Assets\Icons\brush_wedge.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Icons\graybox_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Assets\Icons\icon_grid.png">
@@ -156,6 +163,7 @@
     <!-- <BeautyAfterTasks></BeautyAfterTasks> -->
     <!-- valid values: Error|Detail|Info -->
     <BeautyLogLevel>Info</BeautyLogLevel>
+    <ApplicationIcon>graybox-logo-2.ico</ApplicationIcon>
     <!-- set to a repo mirror if you have troble in connecting github -->
     <!-- <BeautyGitCDN>https://gitee.com/liesauer/HostFXRPatcher</BeautyGitCDN> -->
     <!-- <BeautyGitTree>master</BeautyGitTree> -->

@@ -13,8 +13,6 @@ using System.ComponentModel;
 using Graybox.Editor.Tools;
 using System.Runtime;
 using System.Text.Json;
-using Graybox.GameSystem;
-using System.Diagnostics;
 
 namespace Graybox.Editor;
 
@@ -42,6 +40,7 @@ internal partial class EditorWindow : GameWindow, IInputListener
 		StartFocused = true,
 		Title = "Graybox",
 		WindowState = WindowState.Maximized,
+		Icon = new WindowIcon( new Image( 128, 128, ImageToByteArray( "assets/icons/graybox_logo.png" ) ) )
 	} )
 	{
 		_imgui = new( ClientSize.X, ClientSize.Y );
@@ -989,6 +988,33 @@ internal partial class EditorWindow : GameWindow, IInputListener
 			}
 
 			ImGui.EndPopup();
+		}
+	}
+
+	public static byte[] ImageToByteArray( string iconPath )
+	{
+		try
+		{
+			using ( var img = NetVips.Image.NewFromFile( iconPath ) )
+			{
+				var rgbaImage = img.Colourspace( NetVips.Enums.Interpretation.Srgb );
+				if ( rgbaImage.Width != 128 || rgbaImage.Height != 128 )
+				{
+					rgbaImage = rgbaImage.Resize( 128.0 / rgbaImage.Width );
+				}
+				byte[] pixels = rgbaImage.WriteToMemory();
+				return pixels;
+			}
+		}
+		catch ( Exception )
+		{
+			return CreateBlackImage();
+		}
+
+		static byte[] CreateBlackImage()
+		{
+			const int size = 128 * 128 * 4;
+			return new byte[size];
 		}
 	}
 

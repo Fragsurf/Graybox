@@ -1,5 +1,6 @@
 ﻿
 using System.Globalization;
+using System.Reflection;
 using System.Runtime.Versioning;
 
 namespace Graybox.Editor;
