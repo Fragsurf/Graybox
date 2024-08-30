@@ -4,8 +4,8 @@ using System.Drawing.Imaging;
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Threading;
-using Aardvark.OpenImageDenoise;
-using Aardvark.Base;
+//using Aardvark.OpenImageDenoise;
+//using Aardvark.Base;
 
 namespace Graybox.Lightmapper;
 
@@ -764,13 +764,13 @@ public class LightmapBaker
 
 	void Denoise( float[] lightmap, int width, int height )
 	{
-		Aardvark.Base.Aardvark.Init();
+		//Aardvark.Base.Aardvark.Init();
 
-		using var device = new Device();
+		//using var device = new Device();
 
-		var pixImg = PixImage<float>.Create( lightmap, Col.Format.RGB, width, height ).AsPixImage<float>();
+		//var pixImg = PixImage<float>.Create( lightmap, Col.Format.RGB, width, height ).AsPixImage<float>();
 
-		device.DenoiseLightmap( pixImg, pixImg );
+		//device.DenoiseLightmap( pixImg, pixImg );
 	}
 
 	void DilateEdges( float[] lightmap, int width, int height )

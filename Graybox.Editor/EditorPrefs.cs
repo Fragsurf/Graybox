@@ -6,7 +6,7 @@ namespace Graybox.Editor;
 internal static class EditorPrefs
 {
 
-	public static string Folder => Path.Combine( Environment.CurrentDirectory, "Preferences" );
+	public static string Folder => Path.Combine( Environment.CurrentDirectory, "prefs" );
 	public static string DefaultLayoutFile => Path.Combine( Folder, "default.layout" );
 
 	public static bool GridSnapEnabled

@@ -1,7 +1,5 @@
 ﻿
 
-using static Aardvark.Base.SymMapBaseTraversal;
-
 namespace Graybox;
 
 public static class VectorExtensions

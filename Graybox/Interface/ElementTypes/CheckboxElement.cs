@@ -1,7 +1,6 @@
 ﻿
 using SkiaSharp;
 using System;
-using static Aardvark.Base.MultimethodTest;
 
 namespace Graybox.Interface
 {

@@ -9,14 +9,14 @@ internal class PlaytestGame : GrayboxGame
 
 	public bool IsFocused;
 
-	private Graybox.Bunnyhop.BhopMovement movement;
+	//private Graybox.Bunnyhop.BhopMovement movement;
 
 	protected override void OnInitialized()
 	{
 		base.OnInitialized();
 
 		ActiveScene = new();
-		movement = new( this );
+		//movement = new( this );
 	}
 
 	public override void Update()
@@ -36,7 +36,7 @@ internal class PlaytestGame : GrayboxGame
 
 		if ( IsFocused )
 		{
-			movement.Update();
+			//movement.Update();
 			EditorWindow.Instance.UpdateFrequency = 300;
 		}
 	}
@@ -45,7 +45,7 @@ internal class PlaytestGame : GrayboxGame
 	{
 		base.Tick();
 
-		movement.Tick();
+		//movement.Tick();
 	}
 
 }

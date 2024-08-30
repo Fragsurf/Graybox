@@ -62,22 +62,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aardvark.OpenImageDenoise" Version="0.3.1" />
     <PackageReference Include="BepuPhysics" Version="1.5.2" />
     <PackageReference Include="ImGui.NET" Version="1.90.6.1" />
-    <PackageReference Include="LargeAddressAware">
-      <Version>1.0.6</Version>
-    </PackageReference>
     <PackageReference Include="Magick.NET.SystemDrawing">
       <Version>7.2.2</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.10.0-3.final" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="OpenTK.WinForms" Version="4.0.0-pre.7" />
-    <PackageReference Include="ppy.SDL2-CS" Version="1.0.741-alpha" />
     <PackageReference Include="protobuf-net" Version="3.2.30" />
-    <PackageReference Include="RawInput.Sharp" Version="0.1.3" />
-    <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
     <PackageReference Include="TextCopy">
       <Version>6.2.1</Version>
@@ -102,13 +93,11 @@
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Win32" Version="8.3.0-preview.3.1" />
     <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.7.0" />
     <PackageReference Include="Magick.NET.Core" Version="13.7.0" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.0" />
     <PackageReference Include="NetVips" Version="2.4.1" />
     <PackageReference Include="NetVips.Extensions" Version="2.3.0" />
     <PackageReference Include="NetVips.Native.win-x64" Version="8.15.2" />
     <PackageReference Include="Ookii.Dialogs.WinForms" Version="4.0.0" />
     <PackageReference Include="OpenTK" Version="4.8.2" />
-    <PackageReference Include="Scintilla.NET" Version="5.3.2.9" />
     <PackageReference Include="SkiaSharp" Version="3.0.0-preview.3.1" />
     <PackageReference Include="SkiaSharp.HarfBuzz" Version="3.0.0-preview.3.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.macOS" Version="3.0.0-preview.3.1" />
@@ -121,8 +110,6 @@
     <PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
     <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.0" />
-    <PackageReference Include="System.Security.Cryptography.Encoding" Version="4.3.0" />
-    <PackageReference Include="System.Security.Cryptography.Primitives" Version="4.3.0" />
     <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.0" />
     <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
   </ItemGroup>

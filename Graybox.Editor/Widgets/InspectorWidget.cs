@@ -1,6 +1,5 @@
 ﻿
 
-using Aardvark.Base;
 using Graybox.DataStructures.MapObjects;
 using Graybox.DataStructures.GameData;
 using Graybox.Editor.Documents;

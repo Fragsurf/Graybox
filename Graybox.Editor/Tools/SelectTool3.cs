@@ -7,7 +7,6 @@ using Graybox.Scenes;
 using Graybox.Scenes.Drawing;
 using Graybox.Utility;
 using ImGuiNET;
-using static Aardvark.Base.MultimethodTest;
 
 namespace Graybox.Editor.Tools
 {

@@ -12,7 +12,6 @@ using Graybox.Lightmapper;
 using Graybox.Scenes;
 using ImGuiNET;
 using SkiaSharp;
-using static Aardvark.Base.MultimethodTest;
 using static Graybox.Interface.ButtonElement;
 
 namespace Graybox.Editor.Tools;
