@@ -6,11 +6,11 @@ Graybox is a modern hammer-like level editor built for [Fragsurf](https://store.
 
 Additionally, it is a minimal game engine built mostly for testing and internal purposes.  Graybox.Bunnyhop is a game project with example usage.
 
-The format is simple and easy; you can use it for your game, too.  But more work must be done to make it simple and easy for you.  For example, there is no documentation or way of describing your game's entities, currently, it's a static file created for Fragsurf, i.e. `Graybox.Bunnyhop/Assets/Entities/Deathmatch.json`
+## Can I use it for my game?
 
-## What else?
+Yes, but it's not user-friendly yet.  The format is simple and easy, but there is no documentation or way of describing your game's entities. Currently, it's a static file created for Fragsurf, i.e. `Graybox.Bunnyhop/Assets/Entities/Deathmatch.json`
 
-Bunnyhop and surf have thrived for a very long time thanks to the passion of its community.  We want to continue that, and give creators the tools they need to build awesome maps.
+I won't provide direct support as my time is limited.  Documentation will eventually be created to explain everything.
 
 ## Roadmap
 
